@@ -317,18 +317,46 @@ sql/schema.sql
 
 ## 10. Evidências
 
-As evidências de funcionamento estão na pasta `evidencias/`.
+As evidências de funcionamento estão organizadas na pasta `evidencias/`, incluindo imagens na raiz e em subpastas específicas por funcionalidade.
 
-### Arquivos incluídos:
+---
 
-- evidencias/upload-arquivo.png  
-- evidencias/listagem-storage.png  
-- evidencias/delete-arquivo.png  
-- evidencias/consulta-mysql.png  
+### Upload de Arquivo
 
-### Demonstrações:
+![Upload de Arquivo](evidencias/upload-arquivo/uploadArquivo.png)
+![Upload de Arquivo](evidencias/upload-arquivo/uploadArquivo2.png)
 
-- upload de arquivo funcionando corretamente  
-- listagem dos arquivos no container  
-- exclusão de arquivo do storage  
-- consulta dos registros da tabela `produtos` no MySQL  
+Demonstra o envio de um arquivo local para o Azure Blob Storage.
+
+---
+
+### Container Blob Storage
+
+![Container Blob Storage](evidencias/container-blob-storage.png)
+
+Exibe a visualização do container no portal da Azure.
+
+---
+
+### Listagem de Arquivos
+
+![Listagem 1](evidencias/listagem-storage/listagem.png)  
+
+Mostra os arquivos armazenados no container sendo listados pela aplicação.
+
+---
+
+### Exclusão de Arquivo
+
+![Delete 1](evidencias/delete-arquivo/deleteArquivo.png)  
+![Delete 2](evidencias/delete-arquivo/deleteArquivo2.png)
+
+Demonstra a remoção de arquivos do container.
+
+---
+
+### Consulta ao MySQL
+
+![Consulta 1](evidencias/consulta-mysql/consultaMySql.png)  
+
+Apresenta a consulta aos dados da tabela `produtos` no banco MySQL hospedado na Azure.
