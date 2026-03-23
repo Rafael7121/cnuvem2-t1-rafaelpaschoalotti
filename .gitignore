@@ -1,0 +1,29 @@
+# --- Variáveis de ambiente (CONTÉM CREDENCIAIS — NUNCA COMMITAR) ---
+.env
+
+# --- Ambientes virtuais Python ---
+venv/
+.venv/
+env/
+
+# --- Cache do Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# --- Arquivos de distribuição ---
+dist/
+build/
+*.egg-info/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db

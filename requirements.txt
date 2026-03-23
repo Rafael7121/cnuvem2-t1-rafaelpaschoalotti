@@ -1,0 +1,16 @@
+# ================================================================
+# requirements.txt — Dependencias do projeto
+# Instale com: pip install -r requirements.txt
+# ================================================================
+
+# SDK do Azure Blob Storage para Python (upload, delete, listagem de blobs)
+azure-storage-blob==12.25.1
+
+# Conector oficial MySQL para Python (conexao e consultas ao banco)
+mysql-connector-python==9.3.0
+
+# Biblioteca para carregar variaveis de ambiente a partir do arquivo .env
+python-dotenv==1.1.0
+
+# Biblioteca para formatacao de tabelas no terminal (exibicao dos dados)
+tabulate==0.9.0
