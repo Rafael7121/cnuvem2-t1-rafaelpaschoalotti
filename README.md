@@ -3,7 +3,6 @@
 ## 1. Título e Identificação
 
 - **Aluno:** Rafael Paschoalotti  
-- **RA:** (preencher)  
 - **Disciplina:** Computação em Nuvem II (ISW035)  
 - **Professor:** Ronan Adriel Zenatti  
 - **Semestre:** 2025/1  
